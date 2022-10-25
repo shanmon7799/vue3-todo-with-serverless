@@ -6,18 +6,18 @@ const routes: Array<RouteRecordRaw> = [
     path: "/",
     alias: "/todo",
     name: "todo",
-    component: () => import("./components/TodoList.vue")
+    component: () => import("./components/TodoList.vue"),
   },
   {
     path: "/todo/:id",
     name: "todo-details",
-    component: () => import("./components/Todo.vue")
+    component: () => import("./components/Todo.vue"),
   },
   {
     path: "/add",
     name: "add",
-    component: () => import("./components/AddTodo.vue")
-  }
+    component: () => import("./components/AddTodo.vue"),
+  },
 ];
 
 const router = createRouter({
