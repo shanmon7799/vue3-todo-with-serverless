@@ -4,7 +4,7 @@
       <router-link to="/" class="navbar-brand">Assignment</router-link>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link to="/todo" class="nav-link">Todo List</router-link>
+          <router-link to="/todo-list" class="nav-link">Todo List</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/add" class="nav-link">Create</router-link>

@@ -4,7 +4,7 @@ import { RouteRecordRaw } from "vue-router";
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    alias: "/todo",
+    alias: "/todo-list",
     name: "todo",
     component: () => import("./components/TodoList.vue"),
   },
