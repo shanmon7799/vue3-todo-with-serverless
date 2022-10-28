@@ -22,7 +22,7 @@ class TodoDataService {
   }
 
   findByTitle(title: string): Promise<any> {
-    return http.get(`/todos?title=${title}`);
+    return http.get(`search?title=${title}`);
   }
 }
 

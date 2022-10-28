@@ -26,7 +26,7 @@ export default defineComponent({
       TodoDataService.update(this.currentTodo.id, this.currentTodo)
         .then((response: ResponseData) => {
           console.log(response.data);
-          this.message = "Update Suceess";
+          this.message = "Update Suceess, and go back todo list soon";
           setTimeout( () => this.$router.push({ name: "todo" }
           ), 3000)
         })

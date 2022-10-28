@@ -24,11 +24,6 @@ export default defineComponent({
           console.log(e);
         });
     },
-    refreshList() {
-      this.retrieveTodos();
-      this.currentTodo = {} as Todo;
-      this.currentIndex = -1;
-    },
     setActiveTodo(todo: Todo, index = -1) {
       this.currentTodo = todo;
       this.currentIndex = index;
